@@ -3,301 +3,45 @@
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@200;300 & display=swap');
 
 body {
-    background-color: #ffe4d5;
-    font-family: 'Roboto', sans-serif;
-    position: relative;
-    padding-bottom: 700px;
+    familia de fuentes: 'Raleway', sans-serif;
 }
 
-header {
-    text-align: center;
-    padding: 10px 20px;
-    }
 
 .logo {
     width: 150px;
 }
 
-li {
-    display: inline-block;
-    list-style: none;
-    padding: 10px 50px;
-    font-size: 25px;
-   letter-spacing: 3px;
+.encabezado {
+    background-color: #F9F9FC;
+    border-top: 20px solid #FE6512;
 }
 
-nav {
-    text-align: center;
-    margin: 0 10px;
-    background-color: blue;
-}
-
-a {
-    text-decoration: none;
+.menuNav a {
     text-transform: uppercase;
-    font-weight: normal;
+    font-size: 1.3rem;
+    border-left: 1px solid #FE6512;
+    padding: 0;
+}
+
+.menuNav a:hover {
+    background-color: #FE6512;
     color: white;
 }
 
-main {
-    padding: 20px;
+/*PRODUCTOS*/
+.productos {
+background-color: #00009C;
+color: white;
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+padding: 1rem;
 }
 
-h1 {
-    text-align: center;
-    color: white;
-    margin-bottom: 30px;
-    font-size: 80px;
-    text-transform: uppercase;
-    background-color: orangered;
+.productos h2 {
+    font-size: 3rem;
 }
 
-h4 {
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-top: 5px;
-}
-
-.nuevoContainer {
-    width: 100%;
-    max-width: 1200px;
-    height: 430px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-}
-
-.nuevoContainer .card {
-    width: 330px;
-    height: 430px;
-    border-radius: 8px;
-    box-shadow: 0 2 2 rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: 20px;
-    text-align: center;
-    transition: all 0.2s;
-}
-
-.nuevoContainer .card:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-}
-
-.nuevoContainer .card img {
-    width: 330px;
-    height: 220px;
-}
-
-.nuevoContainer .card h4 {
-    font-weight: 600px;
-}
-
-.nuevoContainer .card p {
-    padding: 0 1rem;
-    font-size: 16px;
-    font-weight: 300;
-}
-
-.nuevoContainer .card a {
-    font-weight: 400;
-    text-decoration: none;
-    color: #4a6eff;
-}
-
-
-/*HOME*/
-.contenido {
-    display: flex;
-    align-items: center;
-    /* Centra verticalmente la imagen y el texto */
-    margin-right: 10px;
-    /* Margen derecho */
-    margin-top: 15px;
-    /* Margen superior */
-    margin-bottom: 15px;
-    /* Margen inferior */
-    margin-left: 10px;
-    /* Margen izquierdo */
-}
-
-img {
-    margin-right: 10px;
-    border-radius: 10px;
-}
-
-
-/*RECOMENDACIONES*/
-
-.contenido {
-    display: flex;
-    align-items: center;
-    /* Centra verticalmente la imagen y el texto */
-    margin-right: 10px;
-    /* Margen derecho */
-    margin-top: 15px;
-    /* Margen superior */
-    margin-bottom: 15px;
-    /* Margen inferior */
-    margin-left: 10px;
-    /* Margen izquierdo */
-}
-
-img {
-    margin-right: 10px;
-    border-radius: 10px;
-}
-
-
-/* SERVICIOS */
-
-.contenedorServicios {
-    margin: 20px;
-    border: none;
-}
-
-.imgServicios {
-    display: inline-block;
-    width: 50%;
-    height: auto;
-}
-
-.contenedorServicios p {
-    background-color: #000000;
-    color: #fff;
-    display: inline-block;
-    padding: 5px;
-    font-weight: bold;
-    font-size: 15px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-/* IFRAME */
-
-iframe {
-    display: block;
-    margin-top: 50px;
-    margin-right: 50px;
-}
-
-.tituloMapa {
-    display: inline-block;
-    margin-bottom: 460px;
-    margin-left: 50px;
-    font-size: 18px;
-    font-weight: normal;
-}
-
-/* FORMULARIO DE CONTACTO */
-
-form {
-    margin-top: 20px;
-}
-
-.completarFormulario {
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 20px;
-    padding-top: 50px;
-    font-weight: normal;
-}
-
-label {
-    display: inline-block;
-    text-align: left;
-    font-weight: lighter;
-    margin-bottom: 10px;
-    color: #111111;
-    width: 100px;
-    /* Ancho deseado para las etiquetas */
-}
-
-
-.formContacto {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-input [type="text"],
-textarea {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    font-size: 15px;
-    margin-bottom: 10px;
-}
-
-.btnFormulario {
-    background-color: #ff4d00;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-right: 10px;
-}
-
-.botonesContainer {
-    text-align: right;
-}
-
-
-/* Estilo para los input */
-input[type="text"],
-textarea {
-    display: inline-block;
-    width: 200px;
-    /* Ancho deseado para los campos de entrada */
-    border: 2px solid #000000;
-    border-radius: 5px;
-    padding: 10px;
-    /* Agrega un espacio alrededor del contenido del input */
-    margin-bottom: 10px;
-}
-
-
-
-/* FOOTER */
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    margin: 20px;
-    padding: 20px;
-    border-top: 1px solid black;
-    text-align: center;
-    font-weight: normal;
-}
-
-
-.instagram {
-    margin-right: 10px;
-    text-decoration: none;
-    color: rgb(255, 0, 179);
-    font-size: 30px;
-}
-
-.facebook {
-    margin-right: 10px;
-    text-decoration: none;
-    color: blue;
-    font-size: 30px;
-}
-
-.whatsapp {
-    margin-right: 10px;
-    text-decoration: none;
-    color: rgb(0, 190, 13);
-    font-size: 30px;
-}
