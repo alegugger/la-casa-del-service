@@ -9,7 +9,6 @@ body {
     familia de fuentes: 'Raleway', sans-serif;
 }
 
-
 .logo {
     width: 150px;
 }
@@ -32,7 +31,7 @@ body {
 }
 
 /*PRODUCTOS*/
-.productos {
+.subTitulos {
 background-color: #00009C;
 color: white;
 text-align: center;
@@ -41,12 +40,11 @@ font-weight: bold;
 padding: 1rem;
 }
 
-.productos h2 {
+.subTitulos h2 {
     font-size: 3rem;
-}
+    }
 
 /*BOTONES*/
-
 .btnCards {
     background-color: rgb(196, 196, 196);
     color: black;
@@ -56,3 +54,14 @@ padding: 1rem;
     background-color: gray;
     color: whitesmoke;
 }
+
+.card {
+border: none;
+padding-top: 20px;
+}
+
+.card-title {
+text-transform: uppercase;
+font-size: 1.5rem;
+}
+
