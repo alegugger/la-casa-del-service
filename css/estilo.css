@@ -45,3 +45,14 @@ padding: 1rem;
     font-size: 3rem;
 }
 
+/*BOTONES*/
+
+.btnCards {
+    background-color: rgb(196, 196, 196);
+    color: black;
+}
+
+.btnCards:hover {
+    background-color: gray;
+    color: whitesmoke;
+}
