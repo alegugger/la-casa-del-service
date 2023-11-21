@@ -8,34 +8,58 @@
     <!-- FAVICON -->
     <link rel="icon" type="image/x-icon" href="../imagenes/favicon.ico">
 
-    <!-- FONTS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
+
 </head>
 
-<body>
-    <header>
-        <a href="">
-            <img class="logo" src="../imagenes/logo.png" alt="Logo de La Casa del Service">
-        </a>
+<body class="container-fluid">
+    <!-- para quitar el scroll lateral le asigno la clase container-fluid -->
 
-           </header>
+    <!-- HEADER BS -->
+    <header class="navbar navbar-expand-lg encabezado sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="../imagenes/logo.png" alt="Logo La Casa del Service">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-           <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="productos.html"> Productos </a></li>
-                <li><a href="recomendaciones.html">Recomendaciones</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto menuNav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recomendaciones.html">Recomendaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="productos">
+        <h2> Recomendaciones</h2>
+    </div>
+    
 
     <main>
-        <h1> Recomendaciones </h1>
-
+        
         <div class="contenido">
 
             <p><strong>Sistema Contínuo: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
@@ -103,6 +127,7 @@
 
     <footer>
         <h4> La Casa del Service - Servicio Técnico Especializado </h4>
+        <h5>Anchorena 1292 - Baradero (2942) - Bs As.</h5>
 
         <a class="instagram" href="https://www.instagram.com/la_casadelservice/" target="_blank">
             <i class="fa-brands fa-square-instagram"></i>

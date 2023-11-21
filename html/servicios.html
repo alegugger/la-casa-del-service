@@ -8,110 +8,121 @@
     <!-- FAVICON -->
     <link rel="icon" type="image/x-icon" href="../imagenes/favicon.ico">
 
-    <!-- FONTS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
-    <!-- CSS
-    <link rel="stylesheet" href="../css/estilo.css"> -->
-
     <!-- CSS Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+
 </head>
 
-<body>
-    <h1>Recomendaciones</h1>
+<body class="container-fluid">
+    
 
+    <!-- HEADER BS -->
+    <header class="navbar navbar-expand-lg encabezado sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="../imagenes/logo.png" alt="Logo La Casa del Service">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-
-
-    <!-- JS Bootstrap -->
-   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
-
-<!-- <body>
-    <header>
-        <a href="">
-            <img class="logo" src="../imagenes/logo.png" alt="Logo de La Casa del Service">
-        </a>
-       
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto menuNav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recomendaciones.html">Recomendaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="../index.html"> Home </a></li>
-            <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="productos.html"> Productos </a></li>
-            <li><a href="recomendaciones.html">Recomendaciones</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
+    <div class="productos">
+        <h2> Servicio Técnico </h2>
+    </div>
 
-    <main>
-        <h1>Servicio Técnico</h1>
+    <!-- CARDS -->
 
-        <div class="nuevoContainer">
+    <div class="row">
 
-            <div class="card">
-                <img src="../imagenes/impresora_sist_continuo4.jpg" alt="Foto de Impresora">
-                <h4>Impresoras</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellat sequi explicabo at
-                    accusamus, delectus maxime eum rem inventore, laboriosam tenetur nulla repudiandae magni fugit
-                    perferendis exercitationem. Ipsam, aperiam asperiores!</p>
-                <a href="">Leer más</a>
+        <div class="card col-xl-4 col-md-6 col-sm-12">
+            <img src="../imagenes/impresora_sist_continuo5.jpg" class="card-img-top" alt="Imagen de Impresora">
+            <div class="card-body">
+                <h3 class="card-title">Impresoras</h3>
+                <p class="card-text">Realizamos servicio técnico a impresoras de todas las marcas.</p>
+                <p>Sistema de papel - Atascos - Almohadillas - Mantenimiento al sistema de tinta - y más...</p>
+                <a href="#" class="btn btnCards">Consultanos aquí</a>
             </div>
-
-            <div class="card">
-                <img src="../imagenes/notebook3.jpg" alt="Foto de Notebbok">
-                <h4>Computadoras</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellat sequi explicabo at
-                    accusamus, delectus maxime eum rem inventore, laboriosam tenetur nulla repudiandae magni fugit
-                    perferendis exercitationem. Ipsam, aperiam asperiores!</p>
-                <a href="">Leer más</a>
-            </div>
-
-            <div class="card">
-                <img src="../imagenes/tvled3.jpg" alt="Foto de Televisor LED">
-                <h4>Televisores</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellat sequi explicabo at
-                    accusamus, delectus maxime eum rem inventore, laboriosam tenetur nulla repudiandae magni fugit
-                    perferendis exercitationem. Ipsam, aperiam asperiores!</p>
-                <a href="">Leer más</a>
-            </div>
-
-            <div class="card">
-                <img src="../imagenes/parlantes2.jpg" alt="Foto de Impresora">
-                <h4>Parlantes</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellat sequi explicabo at
-                    accusamus, delectus maxime eum rem inventore, laboriosam tenetur nulla repudiandae magni fugit
-                    perferendis exercitationem. Ipsam, aperiam asperiores!</p>
-                <a href="">Leer más</a>
-            </div>
-
-            <div class="card">
-                <img src="../imagenes/ps4_0.jpg" alt="Foto de Notebbok">
-                <h4>Consolas de Juegos</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellat sequi explicabo at
-                    accusamus, delectus maxime eum rem inventore, laboriosam tenetur nulla repudiandae magni fugit
-                    perferendis exercitationem. Ipsam, aperiam asperiores!</p>
-                <a href="">Leer más</a>
-            </div>
-
-            <div class="card">
-                <img src="../imagenes/cartuchotoner1.jpg" alt="Foto de Televisor LED">
-                <h4>Recargas de Tóner</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellat sequi explicabo at
-                    accusamus, delectus maxime eum rem inventore, laboriosam tenetur nulla repudiandae magni fugit
-                    perferendis exercitationem. Ipsam, aperiam asperiores!</p>
-                <a href="">Leer más</a>
-            </div>
-
         </div>
 
-    </main>
+        <div class="card col-xl-4 col-md-6 col-sm-12">
+            <img src="../imagenes/notebook3.jpg" class="card-img-top" alt="Imagen de cartucho de tóner">
+            <div class="card-body">
+                <h3 class="card-title">Computadoras</h3>
+                <p class="card-text">Realizamos servicio técnico a Computadoras de escritorio, Notebooks, Netbooks y Tablets.</p>
+                <a href="#" class="btn btnCards">Consultanos aquí</a>
+            </div>
+        </div>
+
+        <div class="card col-xl-4 col-md-6 col-sm-12">
+            <img src="../imagenes/tvled3.jpg" class="card-img-top" alt="Imagen de Televisor LED">
+            <div class="card-body">
+                <h3 class="card-title">Televisores y Monitores</h3>
+                <p class="card-text">Realizamos servicio técnico a Televisores LED</p>
+                <p>Cambio de Led´s - Fuentes - Pantallas - Etc.</p>
+                <a href="#" class="btn btnCards">Consultanos aquí</a>
+            </div>
+        </div>
+
+        <div class="card col-xl-4 col-md-6 col-sm-12">
+            <img src="../imagenes/parlantes2.jpg" class="card-img-top" alt="Imagen de Parlantes">
+            <div class="card-body">
+                <h3 class="card-title">Parlantes</h3>
+                <p class="card-text">Reparamos parlantes de todas las marcas.</p>
+                <a href="#" class="btn btnCards">Consultanos aquí</a>
+            </div>
+        </div>
+
+        <div class="card col-xl-4 col-md-6 col-sm-12">
+            <img src="../imagenes/ps5-xbox.jpg" class="card-img-top" alt="Imagen de Consola de PS4">
+            <div class="card-body">
+                <h3 class="card-title">Consolas de Juegos</h3>
+                <p class="card-text">Mantenimiento preventivo y Correctivo a consolas de Play Station y XBox.</p>
+                <a href="#" class="btn btnCards">Consultanos aquí</a>
+            </div>
+        </div>
+
+        <div class="card col-xl-4 col-md-6 col-sm-12">
+            <img src="../imagenes/cartuchotoner1.jpg" class="card-img-top" alt="Imagen de cartucho de tóner">
+            <div class="card-body">
+                <h3 class="card-title">Recarga de Cartuchos de Tóner</h3>
+                <p class="card-text">Cartuchos de tóner para impresoras:</p>
+                <p>HP - Brother - Samsung</p>
+                <a href="#" class="btn btnCards">Consultanos aquí</a>
+            </div>
+        </div>    
+
+    </div>
 
     <footer>
         <h4> La Casa del Service - Servicio Técnico Especializado </h4>
+        <h5>Anchorena 1292 - Baradero (2942) - Bs As.</h5>
 
         <a class="instagram" href="https://www.instagram.com/la_casadelservice/" target="_blank">
             <i class="fa-brands fa-square-instagram"></i>
@@ -126,6 +137,19 @@
         </a>
     </footer>
 
-</body> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    
 
+
+
+
+    <!-- JS Bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    </body>
 </html>
