@@ -32,17 +32,17 @@ body {
 
 /*PRODUCTOS*/
 .subTitulos {
-background-color: #00009C;
-color: white;
-text-align: center;
-text-transform: uppercase;
-font-weight: bold;
-padding: 1rem;
+    background-color: #00009C;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
 }
 
 .subTitulos h2 {
     font-size: 3rem;
-    }
+}
 
 /*BOTONES*/
 .btnCards {
@@ -56,12 +56,35 @@ padding: 1rem;
 }
 
 .card {
-border: none;
-padding-top: 20px;
+    border: none;
+    padding-top: 20px;
 }
 
 .card-title {
-text-transform: uppercase;
-font-size: 1.5rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
 }
 
+
+
+/*Recomendaciones*/
+
+.contenedor-flex {
+    display: flex;
+    /* Establece el contenedor como un contenedor flex */
+    align-items: center;
+    /* Alinea los elementos verticalmente en el centro */
+    padding-top: 15px;
+
+}
+
+
+img {
+    margin-right: 15px;
+    /* Espacio entre la imagen y el texto */
+    border-radius: 15px;
+    }
+
+    .parrafoRecom {
+        font-size: 1.5rem;
+    }
