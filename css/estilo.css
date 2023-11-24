@@ -48,8 +48,7 @@ body {
     background-color: #fe6512;
     color: white;
     text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
+        font-weight: bold;
     padding: 15px;
 }
 
@@ -169,7 +168,7 @@ footer {
     font-size: 30px;
 }
 
-/*Formulario de Contacto*/
+/*FORMULARIO DE CONTACTO*/
 body {
     margin: 20px;
 }
