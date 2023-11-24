@@ -40,10 +40,22 @@ body {
     padding: 1rem;
 }
 
-.subTitulos h2 {
+.subTitulos h1 {
     font-size: 3rem;
 }
 
+.subTitulosDos {
+    background-color: #fe6512;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.subTitulos h2 {
+    font-size: 2rem;
+}
 
 /*HOME*/
 
@@ -70,8 +82,7 @@ body {
 }
 
 
-
-/*BOTONES*/
+/*Botones*/
 .btnCards {
     background-color: rgb(196, 196, 196);
     color: black;
@@ -94,7 +105,7 @@ body {
 
 
 
-/*Recomendaciones*/
+/*RECOMENDACIONES*/
 
 .contenedor-flex {
     display: flex;
@@ -102,7 +113,6 @@ body {
     align-items: center;
     /* Alinea los elementos verticalmente en el centro */
     padding-top: 15px;
-
 }
 
 img {
@@ -157,4 +167,47 @@ footer {
     text-decoration: none;
     color: rgb(0, 190, 13);
     font-size: 30px;
+}
+
+/*Formulario de Contacto*/
+body {
+    margin: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #00009c;
+}
+
+
+iframe {
+    display: flex;
+    width: 100%;
+}
+
+.formulario {
+    margin-top: 20px;
 }
