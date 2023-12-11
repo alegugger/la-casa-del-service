@@ -1,0 +1,49 @@
+/*CARRUSEL*/
+.sombraParrafo {
+    text-shadow: 1px 1px rgb(68, 68, 68);
+}
+
+/*Botones*/
+.btnCards {
+    background-color: rgb(196, 196, 196);
+    color: black;
+
+    &:hover {
+        background-color: gray;
+        color: whitesmoke;
+    }
+}
+
+.card {
+    border: none;
+    padding-top: 20px;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+/*RECOMENDACIONES*/
+
+.contenedor-flex {
+    display: flex;
+  
+    /* Establece el contenedor como un contenedor flex */
+    align-items: center;
+  
+    /* Alinea los elementos verticalmente en el centro */
+    padding-top: 15px;
+  }
+  
+  img {
+    margin-right: 15px;
+  
+    /* Espacio entre la imagen y el texto */
+    border-radius: 15px;
+  }
+  
+  .parrafoRecom {
+    font-size: 1.2rem;
+  }
+  
