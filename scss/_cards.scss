@@ -1,6 +1,16 @@
 /*CARRUSEL*/
 .sombraParrafo {
-    text-shadow: 1px 1px rgb(68, 68, 68);
+    text-shadow: 1px 1px white;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+.sombraParrafoDos {
+    text-shadow: 1px 1px white;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #00009c;
 }
 
 /*Botones*/

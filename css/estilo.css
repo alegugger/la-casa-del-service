@@ -121,7 +121,17 @@ iframe {
 
 /*CARRUSEL*/
 .sombraParrafo {
-  text-shadow: 1px 1px rgb(68, 68, 68);
+  text-shadow: 1px 1px white;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+
+.sombraParrafoDos {
+  text-shadow: 1px 1px white;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #00009c;
 }
 
 /*Botones*/
@@ -180,8 +190,9 @@ img {
   padding-top: 40px;
 }
 
+/*BANNERS*/
 .subTitulos {
-  background-color: #00009C;
+  background: linear-gradient(#00009C, #9898ff);
   color: white;
   text-align: center;
   text-transform: uppercase;
@@ -210,6 +221,20 @@ img {
   text-align: right;
   font-weight: bold;
   padding: 5px;
+}
+
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+h1 {
+  animation-name: texto;
+  animation-duration: 2s;
+  animation-iteration-count: 3s;
 }
 
 /*# sourceMappingURL=estilo.css.map */
