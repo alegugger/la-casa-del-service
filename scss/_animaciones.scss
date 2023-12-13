@@ -1,17 +1,16 @@
 //Animacion en los h2
 
 @keyframes texto {
-    0% {
-      opacity: 0;
-    }
-  
-    100% {
-      opacity: 100%;
-    }
+  0% {
+    opacity: 0;
   }
-  
-  h1 {
-    animation-name: texto;
-    animation-duration: 2s;
-    animation-iteration-count: 3s;
+
+  100% {
+    opacity: 100%;
   }
+}
+
+h1 {
+  animation-name: texto;
+  animation-duration: 2s;
+}
