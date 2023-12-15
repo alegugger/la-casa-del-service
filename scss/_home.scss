@@ -1,3 +1,4 @@
+/*HOME*/
 .contenedorHome {
   display: flex;
   flex-direction: column;
@@ -6,7 +7,7 @@
 
 .textoHome {
   font-size: 1.2em;
-  max-width: 800px;
+  max-width: 100%;
   width: 100%;
   text-align: justify;
   margin-bottom: 20px;

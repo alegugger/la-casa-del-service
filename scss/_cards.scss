@@ -36,24 +36,41 @@
 
 /*RECOMENDACIONES*/
 
-.contenedor-flex {
-    display: flex;
-  
-    /* Establece el contenedor como un contenedor flex */
-    align-items: center;
-  
-    /* Alinea los elementos verticalmente en el centro */
-    padding-top: 15px;
-  }
-  
-  img {
+img {
     margin-right: 15px;
-  
+
     /* Espacio entre la imagen y el texto */
     border-radius: 15px;
-  }
-  
-  .parrafoRecom {
-    font-size: 1.2rem;
-  }
-  
+}
+
+.textoHome {
+    font-size: 1.2em;
+    max-width: 100%;
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .contenedorFlex {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .contenedorHome {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .textoHome {
+        max-width: 50%;
+        text-align: justify;
+        margin-bottom: 0;
+    }
+
+    .imagenHome {
+        max-width: 50%;
+    }
+}
