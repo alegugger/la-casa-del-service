@@ -1,4 +1,4 @@
-/*HOME*/
+/*HOME Y RECOMENDACIONES*/
 .contenedorHome {
   display: flex;
   flex-direction: column;
@@ -15,6 +15,9 @@
 }
 
 .imagenHome {
+  margin-right: 10px;
+  margin-top: 30px;
+  border-radius: 15px;
   max-width: 100%;
   height: auto;
 }
