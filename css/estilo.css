@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2? family= Raleway:wght@200;300 & display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -97,6 +98,7 @@ iframe {
 
 .formulario {
   margin-top: 20px;
+  font-size: 1.3rem;
 }
 
 .logo {
@@ -149,20 +151,25 @@ iframe {
   padding-top: 20px;
 }
 
-.card-title {
-  text-transform: uppercase;
-  font-size: 1.5rem;
+.card-text {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+.card-text-dos {
+  font-size: 1.1rem;
 }
 
 /*RECOMENDACIONES*/
-img {
-  margin-right: 15px;
+.imagenHome {
+  margin-right: 10px;
+  margin-top: 30px;
   /* Espacio entre la imagen y el texto */
   border-radius: 15px;
 }
 
 .textoHome {
-  font-size: 1.2em;
+  font-size: 1.3rem;
   max-width: 100%;
   width: 100%;
   text-align: justify;
@@ -197,7 +204,7 @@ img {
 }
 
 .textoHome {
-  font-size: 1.2em;
+  font-size: 1.3em;
   max-width: 100%;
   width: 100%;
   text-align: justify;
@@ -208,6 +215,66 @@ img {
 .imagenHome {
   max-width: 100%;
   height: auto;
+}
+
+.subTitulos {
+  background: linear-gradient(#00009C, #9898ff);
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+}
+.subTitulos h1 {
+  font-size: 2rem;
+}
+
+.subTituloDos {
+  background-color: #fe6512;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 2rem;
+}
+
+/* CONTACTO */
+.subTituloTres {
+  background-color: #fe6512;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.8rem;
+}
+
+/* HOME */
+.tituloHome {
+  color: #fe6512;
+  font-size: 1.7rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* SERVICIOS */
+.card-title {
+  text-transform: uppercase;
+  font-size: 1.7rem;
+}
+
+/*Animacion en los h1*/
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+h1 {
+  animation-name: texto;
+  animation-duration: 2s;
 }
 
 @media screen and (max-width: 768px) {
@@ -229,50 +296,24 @@ img {
     max-width: 50%;
   }
 }
-/*BANNERS*/
-.subTitulos {
-  background: linear-gradient(#00009C, #9898ff);
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 1rem;
-}
-.subTitulos h1 {
-  font-size: 3rem;
-}
-
-.subTituloDos {
-  background-color: #fe6512;
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  padding: 15px;
-}
-
-.subTitulos h2 {
-  font-size: 2rem;
-}
-
-.subTituloTres {
-  background-color: #fe6512;
-  color: white;
-  text-align: right;
-  font-weight: bold;
-  padding: 5px;
-}
-
-@keyframes texto {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 100%;
+@media screen and (max-width: 768px) {
+  .contenedorHome {
+    flex-direction: column;
   }
 }
-h1 {
-  animation-name: texto;
-  animation-duration: 2s;
+@media screen and (min-width: 1200px) {
+  .contenedorHome {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .textoHome {
+    max-width: 50%;
+    text-align: justify;
+    margin-bottom: 0;
+  }
+  .imagenHome {
+    max-width: 50%;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

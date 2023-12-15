@@ -1,18 +1,3 @@
-/*CARRUSEL*/
-.sombraParrafo {
-    text-shadow: 1px 1px white;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: black;
-}
-
-.sombraParrafoDos {
-    text-shadow: 1px 1px white;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #00009c;
-}
-
 /*Botones*/
 .btnCards {
     background-color: rgb(196, 196, 196);
@@ -29,22 +14,25 @@
     padding-top: 20px;
 }
 
-.card-title {
-    text-transform: uppercase;
-    font-size: 1.5rem;
+.card-text {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.card-text-dos {
+    font-size: 1.1rem;
 }
 
 /*RECOMENDACIONES*/
-
-img {
-    margin-right: 15px;
-
+.imagenHome {
+    margin-right: 10px;
+    margin-top: 30px;
     /* Espacio entre la imagen y el texto */
     border-radius: 15px;
 }
 
 .textoHome {
-    font-size: 1.2em;
+    font-size: 1.3rem;
     max-width: 100%;
     width: 100%;
     text-align: justify;

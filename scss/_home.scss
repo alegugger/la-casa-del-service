@@ -6,7 +6,7 @@
 }
 
 .textoHome {
-  font-size: 1.2em;
+  font-size: 1.3em;
   max-width: 100%;
   width: 100%;
   text-align: justify;
@@ -17,27 +17,4 @@
 .imagenHome {
   max-width: 100%;
   height: auto;
-}
-
-@media screen and (max-width: 768px) {
-  .contenedorHome {
-    flex-direction: column;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .contenedorHome {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .textoHome {
-    max-width: 50%;
-    text-align: justify;
-    margin-bottom: 0;
-  }
-
-  .imagenHome {
-    max-width: 50%;
-  }
 }
